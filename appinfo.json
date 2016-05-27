@@ -1,0 +1,41 @@
+{
+    "appKeys": {
+        "bgColor": 1,
+        "textColor": 0
+    },
+    "capabilities": [
+        "configurable"
+    ],
+    "companyName": "ksbckr",
+    "enableMultiJS": true,
+    "longName": "Dotted-Watchface",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "images/watchface_icon.png",
+                "menuIcon": true,
+                "name": "IMAGE_WF_ICON",
+                "targetPlatforms": null,
+                "type": "bitmap"
+            },
+            {
+                "file": "fonts/Basicdots.TTF",
+                "name": "FONT_BASIC_DOTS_52",
+                "targetPlatforms": null,
+                "type": "font"
+            }
+        ]
+    },
+    "sdkVersion": "3",
+    "shortName": "dotted-wf",
+    "targetPlatforms": [
+        "aplite",
+        "basalt"
+    ],
+    "uuid": "0bc03e28-1355-47ff-b46e-0eec0c18d381",
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": true
+    }
+}
